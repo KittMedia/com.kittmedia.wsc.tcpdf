@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.kittmedia.wsc.tcpdf" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/package.xsd">
+	<packageinformation>
+		<packagename>TCPDF support</packagename>
+		<packagedescription><![CDATA[This package includes the free TCPDF library into the WoltLab Suite Core. Thus, a PHP-based PDF creation is possible.]]></packagedescription>
+		<packagename language="de">TCPDF support</packagename>
+		<packagedescription language="de"><![CDATA[Dieses Paket bindet die freie TCPDF-Bibliothek in den WoltLab Suite Core ein. Dadurch wird eine PHP-gestützte PDF-Erstellung möglich.]]></packagedescription>
+		<version>6.2.26</version>
+		<date>2019-05-01</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[KittMedia]]></author>
+		<authorurl>http://kittmedia.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.0.20 pl 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<instruction type="file" />
+	</instructions>
+</package>
