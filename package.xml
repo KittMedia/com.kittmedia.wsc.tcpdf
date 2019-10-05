@@ -14,12 +14,16 @@
 		<authorurl>http://kittmedia.com</authorurl>
 	</authorinformation>
 	
+	<compatibility>
+		<api version="2018"></api>
+	</compatibility>
+	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.20 pl 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.1.9 pl 2">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
