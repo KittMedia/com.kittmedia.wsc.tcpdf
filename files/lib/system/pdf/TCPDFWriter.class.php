@@ -60,8 +60,11 @@ class TCPDFWriter extends \TCPDF {
 	public $unit = 'mm';
 	
 	/**
-	 * `true` if PDF/A-1b (ISO 19005-1:2005) should be used, otherwise `false`
-	 * @var		boolean
+	 * `1` if PDF/A-1b (ISO 19005-1:2005) should be used,
+	 * `2` if PDF/A-2 should be used,
+	 * `3` if PDF/A-3 shoud be used
+	 * or `false` if PDF/A mode should be disabled
+	 * @var		integer|boolean
 	 */
 	public $usePdfAMode = false;
 	
