@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.kittmedia.wsc.tcpdf" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/package.xsd">
+<package name="com.kittmedia.wsc.tcpdf" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
 	<packageinformation>
 		<packagename>TCPDF support</packagename>
 		<packagedescription><![CDATA[This package includes the free TCPDF library into the WoltLab Suite Core. Thus, a PHP-based PDF creation is possible.]]></packagedescription>
