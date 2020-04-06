@@ -20,7 +20,7 @@ create_package:
     - cp $PACKAGE_NAME.tar.gz /home/gitlab-runner/temp
     
     only:
-    - master
+    - "6.2"
     
     artifacts:
         paths:
