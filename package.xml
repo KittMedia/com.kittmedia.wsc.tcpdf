@@ -5,8 +5,8 @@
 		<packagedescription><![CDATA[This package includes the free TCPDF library into the WoltLab Suite Core. Thus, a PHP-based PDF creation is possible.]]></packagedescription>
 		<packagename language="de">TCPDF support</packagename>
 		<packagedescription language="de"><![CDATA[Dieses Paket bindet die freie TCPDF-Bibliothek in den WoltLab Suite Core ein. Dadurch wird eine PHP-gestützte PDF-Erstellung möglich.]]></packagedescription>
-		<version>6.3.2</version>
-		<date>2019-05-01</date>
+		<version>6.3.5</version>
+		<date>2020-05-04</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -14,16 +14,12 @@
 		<authorurl>http://kittmedia.com</authorurl>
 	</authorinformation>
 	
-	<compatibility>
-		<api version="2018"></api>
-	</compatibility>
-	
 	<requiredpackages>
-		<requiredpackage minversion="3.1.9 pl 2">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="3.1.13">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="5.3.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
@@ -31,7 +27,7 @@
 		<instruction type="file" />
 	</instructions>
 	
-	<instructions type="update" fromversion="6.2.26">
+	<instructions type="update" fromversion="6.3.2">
 		<!-- files -->
 		<instruction type="file" />
 	</instructions>
