@@ -5,8 +5,8 @@
 		<packagedescription><![CDATA[This package includes the free TCPDF library into the WoltLab Suite Core. Thus, a PHP-based PDF creation is possible.]]></packagedescription>
 		<packagename language="de">TCPDF support</packagename>
 		<packagedescription language="de"><![CDATA[Dieses Paket bindet die freie TCPDF-Bibliothek in den WoltLab Suite Core ein. Dadurch wird eine PHP-gestützte PDF-Erstellung möglich.]]></packagedescription>
-		<version>6.3.5 pl 1</version>
-		<date>2021-03-14</date>
+		<version>6.4.2</version>
+		<date>2021-09-01</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -28,6 +28,11 @@
 	</instructions>
 	
 	<instructions type="update" fromversion="6.3.5">
+		<!-- files -->
+		<instruction type="file" />
+	</instructions>
+	
+	<instructions type="update" fromversion="6.3.5 pl 1">
 		<!-- files -->
 		<instruction type="file" />
 	</instructions>
